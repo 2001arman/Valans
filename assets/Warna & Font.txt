@@ -1,0 +1,37 @@
+Splash Screen
+#00569f Background
+Font Arial Black, Arial Bold
+
+Landing Page 1, 2, 3
+#ffffff Background
+#00569f Font Title, Icon TopBar
+#00569f Font Content
+Font Arial Black, Arial Regular
+
+Tombol Skip
+#00569f Font, Button
+Font Arial Regular
+
+Kuesioner
+#ffffff Background
+#00569f Ketika di klik pilihan, Button Selanjutnya, Keterangan Dokter
+#00569f Lingkaran pilihan
+#000000 Soal, Jawaban, Title
+Font Arial Regular
+
+Pengertian dokter
+#8282a8 Bakcground
+#00569f Font Tombol Selesai 
+#ffffff Font, Background Tombol Selesai
+Font Arial Regular
+
+Tidak ada gejala
+#00569f Background, Font Tombol Selesai 
+#ffffff Font, Background Tombol Selesai
+Font Arial Regular
+
+Ada gejala
+#b48403 Background
+#00569f Font Tombol Selesai 
+#ffffff Font, Background Tombol Selesai
+Font Arial Regular
