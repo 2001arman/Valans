@@ -14,8 +14,8 @@ class Slide extends StatelessWidget {
       children: [
         Container(
           margin: EdgeInsets.fromLTRB(30, 30, 30, 30),
-          height: 280,
-          width: 380,
+          height: 240,
+          width: 340,
           decoration: BoxDecoration(
               image: DecorationImage(
             image: AssetImage(slideData[index].gambar),

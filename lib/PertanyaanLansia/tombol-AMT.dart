@@ -35,7 +35,7 @@ class tombolAMT extends StatelessWidget {
             }
           }
           if (jawab == true) {
-            if (skor < 8) {
+            if (skor < 4) {
               tidakBolehVaksinLansia(
                   context, "Abbreviated Mental Test (AMT) Anda");
             } else {

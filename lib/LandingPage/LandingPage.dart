@@ -13,24 +13,6 @@ class _LandingPageState extends State<LandingPage> {
   int _pageSekarang = 0;
   final PageController _pageController = PageController(initialPage: 0);
 
-  // @override
-  // void initState() {
-  //   super.initState();
-  //   Timer.periodic(Duration(seconds: 5), (Timer timer) {
-  //     if (_pageSekarang < 2) {
-  //       _pageSekarang++;
-  //     } else {
-  //       _pageSekarang = 0;
-  //     }
-
-  //     _pageController.animateToPage(
-  //       _pageSekarang,
-  //       duration: Duration(milliseconds: 300),
-  //       curve: Curves.easeIn,
-  //     );
-  //   });
-  // }
-
   @override
   void dispose() {
     super.dispose();

@@ -12,8 +12,8 @@ class QuestionAMT extends StatelessWidget {
         backgroundColor: Colors.white,
         elevation: 0,
         centerTitle: true,
-        title: Text("Penilaian Abbreviated Mental Test (AMT)",
-            style: TextStyle(color: Colors.black)),
+        title: Text("Penilaian Abbreviated Mental Test \n(AMT)",
+            style: TextStyle(color: Colors.black), textAlign: TextAlign.center),
       ),
       body: Column(
         children: [

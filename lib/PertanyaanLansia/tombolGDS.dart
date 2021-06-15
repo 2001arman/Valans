@@ -78,7 +78,7 @@ class tombolGDS extends StatelessWidget {
             }
           }
           if (jawab == true) {
-            if (skor > 4) {
+            if (skor > 9) {
               tidakBolehVaksinLansia(
                   context, "Geriatric Depression Scale (GDS) anda.");
             } else {

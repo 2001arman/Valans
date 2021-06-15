@@ -26,7 +26,7 @@ class _PertanyaanAMTState extends State<PertanyaanAMT> {
               margin: EdgeInsets.fromLTRB(20, 20, 20, 0),
               padding: EdgeInsets.all(10),
               child: Text(
-                "*Tanyakan soal berikut kepada lansia, jika lansia menjawab dengan benar maka pilih 'iya' dan pilih 'tidak' jika salah.",
+                "*Tanyakan soal berikut kepada lansia, jika lansia menjawab dengan benar maka pilih 'benar' dan pilih 'salah' jika salah.",
                 style: TextStyle(color: Colors.black, fontSize: 16),
                 textAlign: TextAlign.justify,
               ),

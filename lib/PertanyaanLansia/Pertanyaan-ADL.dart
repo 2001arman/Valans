@@ -79,7 +79,7 @@ class _PertanyaanADLState extends State<PertanyaanADL> {
                       index, "Butuh pertolongan orang lain", "Mandiri"),
                 if (index == 3)
                   radioButton3(index, "Tergantung pertolongan orang lain",
-                      "Perlu pertolongan pada beberapa kegiatan", "Mandiri"),
+                      "Perlu pertolongan pada beberapa \nkegiatan", "Mandiri"),
                 if (index == 4)
                   radioButton3(index, "Tidak mampu",
                       "Perlu ditolong memotong makanan", "Mandiri"),
@@ -169,7 +169,12 @@ class _PertanyaanADLState extends State<PertanyaanADL> {
                   buttonGroupValue[index] = val;
                   setState(() {});
                 }),
-            Text(dua, style: TextStyle(fontSize: 16)),
+            Container(
+                child: Text(
+              dua,
+              style: TextStyle(fontSize: 16),
+              textAlign: TextAlign.start,
+            )),
           ],
         ),
         Row(

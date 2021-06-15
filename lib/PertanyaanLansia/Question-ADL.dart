@@ -12,8 +12,11 @@ class QuestionADL extends StatelessWidget {
         backgroundColor: Colors.white,
         elevation: 0,
         centerTitle: true,
-        title: Text("Penilaian Activity of Daily Living (ADL)",
-            style: TextStyle(color: Colors.black)),
+        title: Text(
+          "Penilaian Activity of Daily Living \n(ADL)",
+          style: TextStyle(color: Colors.black),
+          textAlign: TextAlign.center,
+        ),
       ),
       body: Column(
         children: [
